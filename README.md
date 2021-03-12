@@ -6,4 +6,10 @@ CLI TTT! Enter row and column to select a cell to mark, try to get 3 in a line a
 2. Select number of games to be played in that configuration in a row
 3. See statistics about the game outcomes
 4. For AI vs AI matches an option disables board printing for faster games
-5. Select from 4 different AI playstyles: Novice, Intermediate, Experienced, and Expert
+5. Select from 4 different AI playstyles: Novice, Intermediate, Experienced, and Expert (for an idea of how each performs check the stats.txt file)
+
+# Execution
+Run the tictactoe.py script to play
+
+# Dependencies
+random and numpy modules are imported
