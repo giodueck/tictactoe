@@ -1,0 +1,41 @@
+Stats across 100 games of every matchup
+
+## TLDR
+Novice was only good against itself, since it is random, 
+and could not compete against any other ai.
+
+Intermediate smashed Novice, even as P2, and had an
+advantage against itself as P1, since making a mistake on the
+first move as P2 can guarantee a loss, which is why that 
+advantage is gone against Experienced.
+
+Experienced dominated Novice, and had a significant advantage
+over Intermediate, but against itself it almost always tied,
+and as P2 was able to force ties often.
+
+Expert was expected to play lossless, and it did. But because it
+also favored wins, it was able to completely dominate against Novice,
+winning all games as P1 and most as P2. Experienced was able to play
+cat, both as P1 and as P2, and Expert against itself was also 100% ties.
+
+## Stats
+
+Novice v Novice:                win  62%, lose  27%, tie  11%
+Novice v Intermediate:          win   3%, lose  76%, tie  21%
+Novice v Experienced:           win   1%, lose  85%, tie  14%
+Novice v Expert:                win   0%, lose  82%, tie  18%
+
+Intermediate v Novice:          win  86%, lose   0%, tie  14%
+Intermediate v Intermediate:    win  32%, lose  23%, tie  45%
+Intermediate v Experienced:     win  13%, lose   7%, tie  80%
+Intermediate v Expert:          win   0%, lose  14%, tie  86%
+
+Experienced v Novice:           win  91%, lose   0%, tie   9%
+Experienced v Intermediate:     win  28%, lose  13%, tie  59%
+Experienced v Experienced:      win   6%, lose   1%, tie  93%
+Experienced v Expert:           win   0%, lose   0%, tie 100%
+
+Expert v Novice:                win 100%, lose   0%, tie   0%
+Expert v Intermediate:          win  87%, lose   0%, tie  13%
+Expert v Experienced:           win   0%, lose   0%, tie 100%
+Expert v Expert:                win   0%, lose   0%, tie 100%
